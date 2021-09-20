@@ -10,8 +10,7 @@ node 'vm302.linuxmastery.kr' {
 
 node 'vm303.linuxmastery.kr' {
   include base
-  include fortunecow::install
-  include fortunecow::motd
+  include fortunecow
 }
 
 node default {
